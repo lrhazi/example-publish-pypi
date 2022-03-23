@@ -2,17 +2,17 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='example_publish_pypi_medium',
-    version='0.6',
+    name='bigip_utils',
+    version='0.2',
     license='MIT',
-    author="Giorgos Myrianthous",
-    author_email='email@example.com',
+    author="Mohamed Lrhazi",
+    author_email='lrhazi@gmail.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    url='https://github.com/gmyrianthous/example-publish-pypi',
-    keywords='example project',
+    url='https://github.com/lrhazi/bigip-utils-pypi',
+    keywords='bigip utils rest api',
     install_requires=[
-          'scikit-learn',
+          'requests','requests-html','docopt'
       ],
 
 )
